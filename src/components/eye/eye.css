@@ -1,0 +1,39 @@
+.eye {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    aspect-ratio: 1 / 1;
+    width: 20%;
+    border-radius: 50%;
+    background: radial-gradient(63.41% 63.41% at 50% 50%, #FFFFFF 47.56%, #FFDBDB 94.77%);
+}
+
+.iris {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    width: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #7A490F 49.23%, #689148 100%);
+    border-radius: 50%;
+}
+
+.pupil {
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    width: 40%;
+    background-color: #292929;
+    border-radius: 50%;
+}
+
+.highlight {
+    position: absolute;
+    transform: translate(-40%, -40%);
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 19%;
+    background: rgba(255, 255, 255, 0.79);
+}
