@@ -5,9 +5,10 @@
     justify-content: center;
     border: 2px solid black;
     aspect-ratio: 1 / 1;
-    width: 20%;
+    width: 100%;
     border-radius: 50%;
     background: radial-gradient(63.41% 63.41% at 50% 50%, #FFFFFF 47.56%, #FFDBDB 94.77%);
+    box-sizing: border-box;
 }
 
 .iris {

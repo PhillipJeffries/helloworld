@@ -8,8 +8,10 @@ function App() {
 
   return (
     <div className="App">
-      <div className='eye-wrapper'>
+      <div className='eye-wrapper-left'>
         <Eye/>
+      </div>
+      <div className='eye-wrapper-right'>
         <Eye/>
       </div>
       <div className='mouth-wrapper'>
